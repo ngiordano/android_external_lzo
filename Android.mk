@@ -81,6 +81,7 @@ LOCAL_SRC_FILES:= $(common_SRC_FILES)
 LOCAL_C_INCLUDES:= $(common_C_INCLUDES)
 LOCAL_MODULE := liblzo-static
 LOCAL_PRELINK_MODULE:= false
+LOCAL_MODULE_TAGS := optional
 include $(BUILD_STATIC_LIBRARY)
 
 # dynamic library
@@ -91,5 +92,6 @@ LOCAL_SRC_FILES:= $(common_SRC_FILES)
 LOCAL_C_INCLUDES:= $(common_C_INCLUDES)
 LOCAL_MODULE := liblzo
 LOCAL_PRELINK_MODULE:= false
+LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 

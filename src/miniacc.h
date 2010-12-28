@@ -1902,7 +1902,9 @@ extern "C" {
 #define HAVE_FCNTL_H 1
 #define HAVE_FLOAT_H 1
 #define HAVE_LIMITS_H 1
+#ifndef HAVE_MALLOC_H
 #define HAVE_MALLOC_H 1
+#endif
 #define HAVE_MEMORY_H 1
 #define HAVE_SETJMP_H 1
 #define HAVE_SIGNAL_H 1
